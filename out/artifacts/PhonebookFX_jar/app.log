@@ -1,0 +1,31 @@
+23:30:22.263 [JavaFX Application Thread] INFO  phonebook.phonebookfx.App - Удалось загрузить контакты
+23:32:11.906 [JavaFX Application Thread] INFO  phonebook.phonebookfx.App - Удалось загрузить контакты
+23:32:21.187 [JavaFX Application Thread] INFO  phonebook.phonebookfx.AppController - Удалось загрузить страницу контакта
+23:32:34.157 [JavaFX Application Thread] INFO  phonebook.phonebookfx.AppController - Удалось загрузить окно
+23:32:39.955 [JavaFX Application Thread] ERROR phonebook.phonebookfx.SearchByNameController - Введено неправильное ФИО контакта
+23:32:53.071 [JavaFX Application Thread] INFO  phonebook.phonebookfx.SearchByNameController - Контакт по ФИО найден успешно
+18:13:15.036 [JavaFX Application Thread] INFO  phonebook.phonebookfx.App - Удалось загрузить контакты
+18:13:58.172 [JavaFX Application Thread] ERROR phonebook.phonebookfx.App - Не удалось загрузить контакты
+18:16:11.586 [JavaFX Application Thread] ERROR phonebook.phonebookfx.App - Не удалось загрузить контакты
+18:16:56.560 [JavaFX Application Thread] INFO  phonebook.phonebookfx.App - Удалось загрузить контакты
+18:17:32.723 [JavaFX Application Thread] INFO  phonebook.phonebookfx.App - Удалось загрузить контакты
+18:18:03.174 [JavaFX Application Thread] INFO  phonebook.phonebookfx.App - Удалось загрузить контакты
+18:21:54.585 [JavaFX Application Thread] INFO  phonebook.phonebookfx.App - Удалось загрузить контакты
+18:22:06.138 [JavaFX Application Thread] INFO  phonebook.phonebookfx.App - Удалось загрузить контакты
+17:35:02.108 [JavaFX Application Thread] INFO  phonebook.phonebookfx.App - Удалось загрузить контакты
+17:39:23.804 [JavaFX Application Thread] INFO  phonebook.phonebookfx.App - Удалось загрузить контакты
+17:40:01.666 [JavaFX Application Thread] ERROR phonebook.phonebookfx.App - Не удалось загрузить контакты
+17:41:50.461 [JavaFX Application Thread] INFO  phonebook.phonebookfx.App - Удалось загрузить контакты
+17:42:09.760 [JavaFX Application Thread] INFO  phonebook.phonebookfx.App - Удалось загрузить контакты
+17:42:32.837 [JavaFX Application Thread] INFO  phonebook.phonebookfx.App - Удалось загрузить контакты
+17:45:07.430 [JavaFX Application Thread] INFO  phonebook.phonebookfx.AppController - Удалось загрузить окно
+17:46:35.084 [JavaFX Application Thread] INFO  phonebook.phonebookfx.App - Удалось загрузить контакты
+17:46:37.467 [JavaFX Application Thread] INFO  phonebook.phonebookfx.AppController - Удалось загрузить окно
+17:50:18.536 [JavaFX Application Thread] INFO  phonebook.phonebookfx.AppController - Удалось загрузить окно
+17:50:21.987 [JavaFX Application Thread] INFO  phonebook.phonebookfx.AppController - Удалось загрузить страницу контакта
+17:50:24.217 [JavaFX Application Thread] INFO  phonebook.phonebookfx.ContactController - Удалось загрузить окно
+17:53:01.046 [JavaFX Application Thread] INFO  phonebook.phonebookfx.AppController - Удалось загрузить окно
+17:53:08.976 [JavaFX Application Thread] ERROR phonebook.phonebookfx.SearchByPhoneNumberController - Введён неправильный номер телефона
+17:56:33.643 [JavaFX Application Thread] INFO  phonebook.phonebookfx.SearchByPhoneNumberController - Контакт по номеру телефона найден
+18:32:48.061 [JavaFX Application Thread] INFO  phonebook.phonebookfx.App - Удалось загрузить контакты
+18:33:20.626 [JavaFX Application Thread] INFO  phonebook.phonebookfx.App - Удалось загрузить контакты

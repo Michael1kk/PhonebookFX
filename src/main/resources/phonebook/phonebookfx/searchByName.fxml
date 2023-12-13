@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane prefHeight="200.0" prefWidth="410.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="phonebook.phonebookfx.SearchByNameController">
+    <Label layoutX="10.0" layoutY="59.0" text="(формат: Иванов Иван Иванович)">
+        <font>
+          <Font name="Times New Roman Bold" size="25.0" />
+        </font>
+    </Label>
+   <Label layoutX="59.0" layoutY="29.0" text="Введите ФИО контакта">
+      <font>
+         <Font name="Times New Roman Bold" size="27.0" />
+      </font>
+   </Label>
+    <TextField fx:id="entry" alignment="CENTER" layoutX="65.0" layoutY="100.0" onKeyPressed="#getName" prefWidth="300.0">
+        <font>
+          <Font name="Times New Roman" size="14.0" />
+        </font>
+    </TextField>
+</Pane>

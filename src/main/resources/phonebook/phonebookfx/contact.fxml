@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="phonebook.phonebookfx.ContactController">
+    <ScrollPane hbarPolicy="NEVER" layoutY="149.0" prefHeight="250.0" prefWidth="500.0" vbarPolicy="ALWAYS" AnchorPane.bottomAnchor="0.5999999999999943" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="149.0">
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="250.0" prefWidth="485.0">
+         <children>
+               <ListView fx:id="listView" prefHeight="250.0" prefWidth="485.0" AnchorPane.bottomAnchor="-600.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-1200.0" AnchorPane.topAnchor="0.0" />
+         </children>
+        </AnchorPane>
+    </ScrollPane>
+    <MenuBar prefHeight="25.0" prefWidth="500.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <Menu mnemonicParsing="false" text="Редактировать список номеров">
+            <MenuItem mnemonicParsing="false" onAction="#addPhoneNumber" text="Добавить номер" />
+            <MenuItem mnemonicParsing="false" onAction="#deletePhoneNumber" text="Удалить номер" />
+        </Menu>
+    </MenuBar>
+    <VBox alignment="CENTER" layoutX="15.0" layoutY="26.0" prefHeight="123.0" prefWidth="439.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="14.800000000000011">
+        <Label fx:id="name" alignment="CENTER" text="Label" textAlignment="CENTER">
+            <font>
+                <Font name="Times New Roman Bold" size="40.0" />
+            </font>
+        </Label>
+    </VBox>
+</AnchorPane>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="phonebook.phonebookfx.AppController">
+   <ScrollPane hbarPolicy="NEVER" layoutY="25.0" prefHeight="375.0" prefWidth="500.0" vbarPolicy="ALWAYS" AnchorPane.bottomAnchor="-0.19999999999998863" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="25.0">
+     <content>
+       <AnchorPane layoutY="25.0" minHeight="0.0" minWidth="0.0" prefHeight="375.0" prefWidth="485.0">
+            <children>
+                <ListView fx:id="listView" prefHeight="375.0" prefWidth="486.0" AnchorPane.bottomAnchor="-600.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-1100.0" AnchorPane.topAnchor="0.0" />
+            </children>
+         </AnchorPane>
+     </content>
+   </ScrollPane>
+    <MenuBar layoutY="1.0" prefHeight="25.0" prefWidth="500.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <Menu mnemonicParsing="false" text="Поиск">
+            <MenuItem mnemonicParsing="false" onAction="#searchByName" text="По ФИО" />
+         <MenuItem mnemonicParsing="false" onAction="#searchByPhoneNumber" text="По номеру телефона" />
+        </Menu>
+        <Menu mnemonicParsing="false" text="Редактировать">
+         <MenuItem mnemonicParsing="false" onAction="#addContact" text="Добавить контакт" />
+            <MenuItem mnemonicParsing="false" onAction="#deleteContact" text="Удалить контакт" />
+        </Menu>
+        <Menu mnemonicParsing="false" text="Справка">
+            <MenuItem mnemonicParsing="false" onAction="#aboutApp" text="О приложении" />
+            <MenuItem mnemonicParsing="false" onAction="#aboutDeveloper" text="О разработчике" />
+        </Menu>
+    </MenuBar>
+</AnchorPane>

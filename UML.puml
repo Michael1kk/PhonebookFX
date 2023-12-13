@@ -1,0 +1,88 @@
+@startuml
+class phonebook.phonebookfx.Phonebook {
+- HashMap<String,HashMap<String,String>> book
++ void addContact(String,String,String)
++ void delContact(String)
++ void addPhone(String,String,String)
++ void delPhone(String,String)
++ void savePB()
++ HashMap<String,HashMap<String,String>> loadPB()
+}
+class phonebook.phonebookfx.ContactController {
+- {static} Logger logger
+- String[] label
+# {static} Stage stage
+# {static} ObservableList<String> phone_numbers
+- Alert alert
+- Label name
+- ListView<String> listView
+- void addPhoneNumber()
+- void deletePhoneNumber()
++ void initialize(URL,ResourceBundle)
+}
+class phonebook.phonebookfx.AddContactController {
+- {static} Logger logger
+- TextField entry_name
+- void combine()
+- boolean checkInput()
+}
+class phonebook.phonebookfx.AddNumberController {
+- {static} Logger logger
+- TextField entry_phone
+- void add()
+- boolean checkInput()
+}
+class phonebook.phonebookfx.Start {
++ {static} void main(String[])
+}
+class phonebook.phonebookfx.DeleteContactController {
+- {static} Logger logger
+- TextField entry
+- void delete()
+}
+class phonebook.phonebookfx.AppController {
+- {static} Logger logger
+# {static} Stage contact_stage
+# {static} Stage stage
+# {static} ObservableList<String> names
+- Alert alert
+# ListView<String> listView
+- void aboutApp()
+- void aboutDeveloper()
+- void searchByName()
+- void searchByPhoneNumber()
+- void addContact()
+- void deleteContact()
++ void initialize(URL,ResourceBundle)
+}
+class phonebook.phonebookfx.DeleteNumberController {
+- {static} Logger logger
+- TextField entry
+- void delete()
+- boolean checkInput()
+}
+class phonebook.phonebookfx.SearchByPhoneNumberController {
+- {static} Logger logger
+- TextField entry
+- void getPhone()
+- boolean checkInput()
+- String getName()
+}
+class phonebook.phonebookfx.App {
+# {static} Phonebook phonebook
+# {static} HashMap<String,HashMap<String,String>> contacts
+# {static} Logger logger
++ void start(Stage)
++ {static} void main(String[])
+}
+class phonebook.phonebookfx.SearchByNameController {
+- {static} Logger logger
+- TextField entry
+- void getName()
+}
+
+
+javafx.fxml.Initializable <|.. phonebook.phonebookfx.ContactController
+javafx.fxml.Initializable <|.. phonebook.phonebookfx.AppController
+javafx.application.Application <|-- phonebook.phonebookfx.App
+@enduml

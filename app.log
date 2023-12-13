@@ -1,0 +1,8 @@
+18:08:58.134 [JavaFX Application Thread] ERROR phonebook.phonebookfx.App - Не удалось загрузить контакты
+18:10:42.527 [JavaFX Application Thread] ERROR phonebook.phonebookfx.App - Не удалось загрузить контакты
+18:11:25.588 [JavaFX Application Thread] INFO  phonebook.phonebookfx.App - Удалось загрузить контакты
+18:11:29.883 [JavaFX Application Thread] INFO  phonebook.phonebookfx.AppController - Удалось загрузить страницу контакта
+18:11:33.911 [JavaFX Application Thread] INFO  phonebook.phonebookfx.AppController - Удалось загрузить страницу контакта
+18:18:24.526 [JavaFX Application Thread] ERROR phonebook.phonebookfx.App - Не удалось загрузить контакты
+18:18:54.384 [JavaFX Application Thread] INFO  phonebook.phonebookfx.App - Удалось загрузить контакты
+18:21:16.453 [JavaFX Application Thread] INFO  phonebook.phonebookfx.App - Удалось загрузить контакты
